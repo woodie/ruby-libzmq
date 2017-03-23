@@ -1,6 +1,6 @@
 # Short Description
 
-Debian Linux 8 / jessie with ruby:2.2.4 and libzmq.
+Debian Linux 8 / jessie with ruby 2.2.4, mysql-client 5.6 and libzmq.
 
 # Full Description
 
