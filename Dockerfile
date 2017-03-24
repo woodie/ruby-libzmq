@@ -8,7 +8,7 @@ RUN apt-key add /tmp/RPM-GPG-KEY-mysql \
   && apt-get install -y mysql-community-client
 
 # libzmq1 (2.2.0+dfsg-6)
-RUN apt-get update && apt-get install -y libzmq-dev \
+RUN apt-get install -y libzmq-dev \
   && gem install ffi-rzmq -v '1.0.3'
 
 CMD ["ruby", "-e", "\"require 'ffi-rzmq'; ZMQ::Message.new\""]
